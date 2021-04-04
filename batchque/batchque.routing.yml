@@ -1,0 +1,7 @@
+batchque.delete_node_example:
+  path: '/batch-example/delete'
+  defaults:
+    _form: '\Drupal\batchque\Form\DeleteNodeForm'
+    _title: 'Batch Task'
+  requirements:
+    _permission: 'access content'
